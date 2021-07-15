@@ -1,0 +1,38 @@
+h3
+{
+    font-size:25px !important;
+}
+
+.btn-success:hover
+{
+    background-color: crimson;
+}
+
+canvas
+{
+    animation-name: example;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes example 
+{
+    from {box-shadow:hotpink 5px 5px 40px ;}
+    to {box-shadow:deeppink 5px 5px 40px ;}
+    from {box-shadow:mediumvioletred 5px 5px 40px ;}
+    to {box-shadow:red 5px 5px 40px ;}
+    from {box-shadow:tomato 5px 5px 40px ;}
+    to {box-shadow:coral 5px 40px ;}
+    from {box-shadow:darkorange 5px 5px 40px ;}
+    to {box-shadow:goldenrod 5px 5px 40px ;} 
+    from {box-shadow:gold 5px 5px 40px ;}
+    to {box-shadow:yellow 5px 5px 40px ;}
+    from {box-shadow:yellowgreen 5px 5px 40px ;}
+    to {box-shadow:olivedrab 5px 5px 40px ;}
+    from {box-shadow:turquoise 5px 5px 40px ;}
+    to {box-shadow:blue 5px 5px 40px ;}
+    from {box-shadow:skyblue 5px 5px 40px ;}
+    to {box-shadow:slateblue 5px 5px 40px ;}
+    from {box-shadow:purple 5px 5px 40px ;}
+    to {box-shadow:navy 5px 5px 40px ;} 
+}
